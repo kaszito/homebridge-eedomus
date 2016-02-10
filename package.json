@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-eedomus",
+  "version": "0.0.1",
+  "description": "eedomus plugin for homebridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaszito/homebridge-eedomus.git"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": "Carlos Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaszito/homebridge-eedomus/issues"
+  },
+  "homepage": "https://github.com/kaszito/homebridge-eedomus#readme"
+}

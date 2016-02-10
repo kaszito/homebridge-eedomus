@@ -1,0 +1,44 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+    
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "credentials": {
+        "ip" : "your_local_eedomus_ip",
+        "api_user" : "your_eedomus_api_user",
+        "api_secret" : "your_eedomus_api_secret"
+    },
+
+    "accessories": [
+       {
+           "accessory": "eedomus",
+           "name": "Television Salon",
+           "periph_id": "255356",
+           "service": "Switch"
+       },
+       {
+           "accessory": "eedomus",
+           "name": "Persiana Salon",
+           "periph_id": "194690",
+           "service": "WindowCovering"
+       },
+       {
+           "accessory": "eedomus",
+           "name": "Temperatura despacho",
+           "periph_id": "274217",
+           "service": "TemperatureSensor"
+       },
+       {
+           "accessory": "eedomus",
+           "name": "Luz escaleras primera",
+           "periph_id": "260134",
+           "brightnessHandling": "yes",
+           "service": "Light"
+       }
+    ]
+}
